@@ -41,4 +41,4 @@ df_hourly = df_long.groupby(['SiteID']).resample('1H').sum().reset_index()
 output_path = os.path.join("data", "cleaned_traffic_data.csv")
 df_hourly.to_csv(output_path, index=False)
 
-print(f"\n✅ Cleaned hourly traffic data saved to: {output_path}")
+print(f"\ Cleaned hourly traffic data saved to: {output_path}")
