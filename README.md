@@ -17,5 +17,5 @@ Our system integrates:
 
 ---
 
-## 🗂️ Repository Structure
+
 
